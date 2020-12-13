@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/loginer/loginer",
+    "pages/mine/mine",
+    "pages/more/more",
+    "pages/punch/punch",
+    "pages/register/register",
+    "pages/publish/publish",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FEFEFE",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "一见打卡",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#FAFAFA",
+    "borderStyle": "white",
+    "color": "#b2b2b2",
+    "selectedColor": "#1e1e1e",
+    "list": [
+      {
+        "pagePath": "pages/punch/punch",
+        "selectedIconPath": "static/images/punch1.png",
+        "iconPath": "static/images/punch.png",
+        "text": "一见打卡"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "selectedIconPath": "static/images/school1.png",
+        "iconPath": "static/images/school.png",
+        "text": "列表"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "selectedIconPath": "static/images/send1.png",
+        "iconPath": "static/images/send.png",
+        "text": "发表"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "selectedIconPath": "static/images/mine1.png",
+        "iconPath": "static/images/mine.png",
+        "text": "我"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

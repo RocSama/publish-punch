@@ -1,0 +1,4 @@
+<view>
+  <view>姓名:{{uname}}</view>
+  <view>学号:{{uid}}</view>
+</view>

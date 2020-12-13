@@ -1,0 +1,7 @@
+<view>
+  姓名：
+  <input type="text" name="uname" bindinput="unameInput" placeholder="请输入姓名"/>
+  学号：
+  <input type="text" name="uid" bindinput="uidInput" placeholder="请输入学号"/>
+  <button type="primary" bindtap="registerClick">注册</button>
+</view>

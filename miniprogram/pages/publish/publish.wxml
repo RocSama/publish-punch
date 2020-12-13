@@ -1,0 +1,5 @@
+<view>
+  标题：<input type="text" name='title' bindinput="titleInput" placeholder="请输入标题"/>
+  内容：<textarea name='content' bindinput="contentInput" placeholder="请输入内容"></textarea>
+  <button type="primary" bindtap="publishClick">发表</button>
+</view>

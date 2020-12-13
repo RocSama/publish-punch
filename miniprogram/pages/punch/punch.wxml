@@ -1,0 +1,5 @@
+<view style="width: 100%; height: 100%;">
+  <map id="map" longitude="{{longitude}}" latitude=" {{latitude}}" markers="{{markers}}" scale="13" show-location style="width: 100%; height: 50%;"></map>
+  <button style="margin-top:20px" type="primary" bindtap="btn_click">开始打卡</button>
+</view>
+
